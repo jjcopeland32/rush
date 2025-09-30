@@ -1,0 +1,1 @@
+import express from 'express'; const app=express(); app.get('/healthz',(_r,res)=>res.json({status:'ok'})); app.listen(3002,()=>console.log('reporting on 3002'));
